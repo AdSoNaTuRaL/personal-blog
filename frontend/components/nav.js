@@ -8,8 +8,20 @@ const Nav = ({ categories }) => {
         <div className="uk-navbar-left">
           <ul className="uk-navbar-nav">
             <li>
-              <Link href="/">
-                <a>Strapi Blog</a>
+              <Link href="/" passHref>
+                <div
+                  className="uk-logo"
+                  style={{
+                    borderRadius: "60%",
+                    overflow: "hidden",
+                    marginLeft: "60px",
+                    marginTop: "10px",
+                    cursor: "pointer",
+                  }}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/logo.jpg" alt="logo" height={80} width={80} />
+                </div>
               </Link>
             </li>
           </ul>
