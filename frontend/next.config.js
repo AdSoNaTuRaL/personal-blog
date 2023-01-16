@@ -4,7 +4,10 @@
 const nextConfig = {
   images: {
     loader: "default",
-    domains: ["localhost"],
+    domains: [
+        "localhost",
+        "adsonatural-blog-backend-c4p7l.ondigitalocean.app"
+    ],
   },
 }
 
